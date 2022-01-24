@@ -5,21 +5,21 @@ from Cleaning_Data import ingredient_parser
 import pickle
 import unidecode, ast
 import os
+import config
 
 
-
-settings_dir = os.path.dirname(__file__)
-PROJECT_ROOT = os.path.abspath(os.path.dirname(settings_dir))
-all_recipes_clean_path = settings_dir + '\\Data\\'
-models_path = settings_dir + '\\Data\\model\\'
-print(models_path)
+# settings_dir = os.path.dirname(__file__)
+# PROJECT_ROOT = os.path.abspath(os.path.dirname(settings_dir))
+# all_recipes_clean_path = settings_dir + '\\Data\\'
+# models_path = settings_dir + '\\Data\\model\\'
+# print(models_path)
 
 
 
 # Top-N recomendations order by score
 def get_recommendations(N, scores):
     # load in recipe dataset 
-    df_recipes = pd.read_csv(all_recipes_clean_path+"df_parsed.csv")
+    df_recipes = pd.read_csv(config.PARSED_PATH)
     # order the scores with and filter to get the highest N scores
     top = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:N]
     # create dataframe to load in recommendations 
@@ -58,10 +58,10 @@ def RecSys(ingredients, N=5):
     """
 
     # load in tdidf model and encodings 
-    with open(models_path+"modeltfidf_encodings.pkl", 'rb') as f:
+    with open(config.TFIDF_ENCODING_PATH, 'rb') as f:
         tfidf_encodings = pickle.load(f)
 
-    with open(models_path+"modeltfidf.pkl", "rb") as f:
+    with open(config.TFIDF_MODEL_PATH, "rb") as f:
         tfidf = pickle.load(f)
 
     # parse the ingredients using my ingredient_parser 
