@@ -49,7 +49,7 @@ if st.button("Give me recommendations!"):
     # st.error(
     # 'According to our Calculations, you will not get the loan from Bank'
     # )
-    col1, col2, col3 = st.columns([1, 6, 1])
+    col1, col2, col3 = st.beta_columns([1, 6, 1])
     with col2:
         gif_runner = st.image("Data/gitrunner.gif")
     
