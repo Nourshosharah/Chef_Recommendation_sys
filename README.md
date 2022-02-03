@@ -13,7 +13,7 @@ here flowchar that the project work on :
 6. deployment the project with streamlit 
 
 
-feel free to try it by yourself [Chef Recommendation system](https://https://share.streamlit.io/nourshosharah/chef_recommendation_sys/main/streamlit.py)
+feel free to try it by yourself [Chef Recommendation system](https://share.streamlit.io/nourshosharah/chef_recommendation_sys/main/streamlit.py)
 
 best resources and articels that was so helpful and useful 
 1. https://towardsdatascience.com/building-a-recipe-recommendation-system-297c229dda7b
