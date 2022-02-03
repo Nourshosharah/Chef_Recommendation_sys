@@ -20,6 +20,7 @@ best resources and articels that was so helpful and useful
 2. https://towardsdatascience.com/building-a-recipe-recommendation-api-using-scikit-learn-nltk-docker-flask-and-heroku-bfc6c4bdd2d4
 3. https://jackmleitch.medium.com/using-beautifulsoup-to-help-make-beautiful-soups-d2670a1d1d52
 4. https://www.datacamp.com/community/tutorials/streamlit
+5. https://stevenkyle2013.medium.com/quick-intro-into-web-scraping-with-python-using-beautifulsoup-5ad319846168
 
  
  
