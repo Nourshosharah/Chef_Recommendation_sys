@@ -1,5 +1,5 @@
 # **Chef Recommendation system**
-# this project graduation from Data Science Diploma [machinfy](https://machinfy.com)
+# project graduation from Data Science Diploma [machinfy](https://machinfy.com)
 # **End to End project** 
 Given a list of ingredients, what different recipes can I can make? 
 based on what you have ingredients in your home , the system can recommended you best recipes 
