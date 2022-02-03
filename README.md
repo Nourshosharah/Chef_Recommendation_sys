@@ -11,6 +11,8 @@ here flowchar that the project work on :
 4. build recommendation sys that use cosine similirity to measure similrity between  ingredients that input from user and ingredients we scraped and exsist in our dataset
 5. build flask Api 
 6. deployment the project with streamlit 
+
+
 feel free to try it by yourself [Chef Recommendation system](https://https://share.streamlit.io/nourshosharah/chef_recommendation_sys/main/streamlit.py)
 
 best resources and articels that was so helpful and useful 
