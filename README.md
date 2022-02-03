@@ -1,4 +1,3 @@
-# Chef_Recommendation_sys
 # **Chef Recommendation system**
 # this project graduation from Data Science Diploma [machinfy](https://machinfy.com)
 # **End to End project** 
